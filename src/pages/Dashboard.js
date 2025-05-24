@@ -72,7 +72,6 @@ const Dashboard = () => {
         dayjs()
     ]);
 
-    // Tạo danh sách các năm (từ 2020 đến năm hiện tại + 1)
     const generateYearOptions = () => {
         const currentYear = new Date().getFullYear();
         const years = [];
@@ -113,7 +112,6 @@ const Dashboard = () => {
             setRecentOrders(recentOrdersData);
             setTopProducts(topProductsData);
 
-            // Load monthly data for current year
             await loadMonthlyData();
         } catch (error) {
             message.error('Lỗi khi tải dữ liệu dashboard');
