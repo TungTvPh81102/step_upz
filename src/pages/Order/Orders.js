@@ -188,7 +188,9 @@ const Orders = () => {
         },
     ];
 
-    const totalRevenue = filteredOrders.reduce((sum, order) => sum + order.totalPrice, 0);
+    const totalRevenue = filteredOrders
+        .filter(order => order.status === 'Hoàn tất')
+        .reduce((sum, order) => sum + order.totalPrice, 0);
     const completedOrders = filteredOrders.filter(order => order.status === 'Hoàn tất').length;
 
     return (

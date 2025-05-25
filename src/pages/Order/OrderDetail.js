@@ -169,7 +169,8 @@ const OrderDetail = () => {
             email: order.email,
             phone: order.phone,
             address: order.address,
-            note: order.note || ''
+            note: order.note || '',
+            name: order.customerName
         });
         setCustomerModalVisible(true);
     };
@@ -180,10 +181,11 @@ const OrderDetail = () => {
             await updateOrderCustomerInfo(id, values);
             setOrder(prev => ({
                 ...prev,
+                customerName: values.name,
                 email: values.email,
                 phone: values.phone,
                 address: values.address,
-                note: values.note
+                note: values.note,
             }));
             message.success('Cập nhật thông tin khách hàng thành công!');
             setCustomerModalVisible(false);
@@ -407,6 +409,9 @@ const OrderDetail = () => {
                         }}
                     >
                         <Descriptions column={1} size="middle">
+                            <Descriptions.Item label={<><UserOutlined/> Tên khách hàng </>}>
+                                <Text strong>{order.customerName}</Text>
+                            </Descriptions.Item>
                             <Descriptions.Item label={<><UserOutlined/> Email</>}>
                                 <Text strong>{order.email}</Text>
                             </Descriptions.Item>

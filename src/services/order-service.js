@@ -92,6 +92,7 @@ export const updateOrderCustomerInfo = async (id, values) =>{
     try {
         const orderRef = doc(db, 'orders', id);
         await updateDoc(orderRef, {
+            customerName: values.name,
             email: values.email,
             phone: values.phone,
             address: values.address,
