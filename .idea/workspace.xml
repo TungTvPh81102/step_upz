@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8310cf1-9a0b-4e38-be54-1d7ff0d05413" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GiftCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GiftCards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Order/OrderDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Order/OrderDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Order/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Order/Orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/order-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/order-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/statistic-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/statistic-service.js" afterDir="false" />
     </list>
@@ -82,7 +77,8 @@
       <workItem from="1748015121071" duration="7269000" />
       <workItem from="1748093415506" duration="7321000" />
       <workItem from="1748187195501" duration="1121000" />
-      <workItem from="1748271921210" duration="6618000" />
+      <workItem from="1748271921210" duration="6882000" />
+      <workItem from="1748356791977" duration="1418000" />
     </task>
     <servers />
   </component>
